@@ -1,0 +1,23 @@
+
+func main() {
+	// 密钥(key)
+	key := "这是用于分组密码算法加密的密钥串"
+
+	// 创建分组密码算法实例
+	XXXCipher := NewXXXCiper(key)
+
+	// 初始向量(IV) -- 可选
+	IV := "这是初始向量"
+
+	// 创建分组模式的实例 - 用于加密
+	BlockModeEncrypter := NewBlockModeEncrypter(XXXCipher, IV)
+
+	// 待加密的明文字符串
+	plaintext := "这是用于待加密的明文字符串"
+
+	// 加密
+	ciphertext := BlockModeEncrypter.EncryptBlocks(plaintext)
+
+	// 输出密文
+	fmt.Printf("%x\n", ciphertext) 
+}

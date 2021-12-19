@@ -1,0 +1,23 @@
+
+func main() {
+	// 密钥(key)
+	key := "这是用于分组密码算法解密的密钥串"
+
+	// 创建分组密码算法实例
+	XXXCipher := NewXXXCiper(key)
+
+	// 初始向量(IV) -- 可选，亦可从密文字符串中提取(需加密方与解密方协商确定)
+	IV := "这是初始向量" 
+
+	// 创建分组模式的实例 - 用于解密
+	BlockModeDecrypter := NewBlockModeDecrypter(XXXCipher, IV)
+
+	// 待解密的密文数据
+	ciphertext := []byte{...}
+
+	// 解密
+	plaintext := BlockModeDecrypter.DecryptBlocks(ciphertext)
+
+	// 输出明文
+	fmt.Printf("%x\n", plaintext) 
+}

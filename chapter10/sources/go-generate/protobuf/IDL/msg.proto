@@ -1,0 +1,9 @@
+syntax = "proto3";
+  
+package msg;
+
+message request {
+        string msgID = 1;
+        string field1 = 2;
+        repeated string field2 = 3;
+}
