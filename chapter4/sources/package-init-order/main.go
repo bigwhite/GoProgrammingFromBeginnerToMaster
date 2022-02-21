@@ -22,7 +22,7 @@ func constInitCheck() string {
 	if c1 != "" {
 		fmt.Println("main: const c1 init")
 	}
-	if c1 != "" {
+	if c2 != "" {
 		fmt.Println("main: const c2 init")
 	}
 	return ""
