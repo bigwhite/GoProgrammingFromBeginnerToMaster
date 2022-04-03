@@ -10,5 +10,6 @@
 | 2  | Go语言精进之路vol1 | p118 | “string(b)用在map类型的key中”这句话下面的代码m[[3]string{string(b),"key1","key2"}]="value"好像有语法错误| chenwenbo1988@outlook.com  | 语法错误 | m[[3]string{string(b),"key1","key2"}]="value" 应该删除 |
 | 3  | Go语言精进之路vol1 | p383 | type interface error | 大鹏(github.com/Degfy)  | 语法错误 | 应改为 type error interface  |
 | 4  | Go语言精进之路vol1 | p227 | type MyInterface I和type Mystruct T | 1264644959@qq.com  | 语法错误 | 应改为 type MyInterface= I和type Mystruct = T  |
+| 5  | Go语言精进之路vol1 | p36 | 图5-1中PEADME.md | Yao-Shang Tseng(https://github.com/yakushou730) | typo | 应改为 README.md  |
 
 
