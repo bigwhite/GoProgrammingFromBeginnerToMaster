@@ -14,5 +14,5 @@
 | 6  | Go语言精进之路vol2 | p165 | 图51-6中 非对称加密 中的“A的公钥”与“A的私钥”写反了 | 1264644959@qq.com | typo | 应将这两者调换一下  |
 | 7  | Go语言精进之路vol1 | p391 | 小结中“如果可以通过错误值类型的特征进行错误检视，那么尽量使用错误行为特征检视策略；在上述两种策略无法实施的情况下，再用“哨兵”策略和错误值类型检视策略” | AVOlili(https://github.com/AVOlili) | 表达不清| 应改为：“如果可以通过错误行为特征进行错误检视，那么尽量使用错误行为特征检视策略；在上述两种策略无法实施的情况下，再用“哨兵”策略和错误值类型检视策略；”  |
 | 8  | Go语言精进之路vol2(微信读书电子版) | 第47条 和 第49条，具体参见[issue6](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/6) | html字符被转义了，影响阅读体验 | AVOlili(https://github.com/AVOlili) | 编辑错误 | 等待微信读书渠道编辑去掉转义，恢复html字符原貌 |
-
+| 9  | Go语言精进之路vol1 | p97 | chapter3/sources/map_stable_iterate.go示例代码通过range map给切片赋值可能会给大家带去误解| feng zhao (ifenng2020@gmail.com) | 表达不清| 这个例子中用切片保存是第一次map迭代的元素order。我的原意并非一定是按照1, 2, 3的顺序保存，只是要保证后续的iterate order都与第一次相同即可。只是在我的机器上第一次iterate的order恰好是 1,2,3的顺序。不过这个例子的确会给大家带去困惑。后续如果再版，会在这处做出说明 | 
 
