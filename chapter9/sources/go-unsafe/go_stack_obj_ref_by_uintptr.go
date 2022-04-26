@@ -8,7 +8,7 @@ import (
 func main() {
 	var x = [10]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 0}
 	fmt.Printf("变量x的值=%d\n", x)
-	println("变量x的地址=", q)
+	println("变量x的地址=", &x)
 
 	var p = uintptr(unsafe.Pointer(&x))
 	var q = unsafe.Pointer(&x)
