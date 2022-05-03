@@ -17,3 +17,5 @@
 | 9  | Go语言精进之路vol1 | p97 | chapter3/sources/map_stable_iterate.go示例代码通过range map给切片赋值可能会给大家带去误解| feng zhao (ifenng2020@gmail.com) | 表达不清| 这个例子中用切片保存是第一次map迭代的元素order。我的原意并非一定是按照1, 2, 3的顺序保存，只是要保证后续的iterate order都与第一次相同即可。只是在我的机器上第一次iterate的order恰好是 1,2,3的顺序。不过这个例子的确会给大家带去困惑。后续如果再版，会在这处做出说明 | 
 | 10  | Go语言精进之路vol1 | p161 | for_range_bench_test.go的输出结果与结论有悖 | 324127863(324127863@qq.com) | 内容错误 | for range数组性能好的原因与Go编译器根据数组元素大小进行的优化有关。可以参考一下[这篇文章](https://tonybai.com/2022/03/19/for-range-vs-classic-for-loop-when-iterating-large-array)  |
 | 11  | Go语言精进之路vol1 | p103 | 示例代码有误，具体参见[issue 9](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/9) | liansyyy(https://github.com/liansyyy) | typo | 应改为 p := &m[key] |
+| 12  | Go语言精进之路vol1 | p350 | “如何s[n]T或\*[n]T的数组类型，len(s)返回数组的长度n” | bin4tre(bin4re@foxmail.com) | typo | 应将“如何”改为 “如果” |
+| 13  | Go语言精进之路vol1 | p352 | trySend函数的default分支的返回语句拼写错误"etrun false" | bin4tre(bin4re@foxmail.com) | typo | 应改为 “return false” |
