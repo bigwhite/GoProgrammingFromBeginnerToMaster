@@ -3,6 +3,8 @@
 
 本套书的勘误表可在[这里](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/blob/main/errata.md)查看。
 
+购买套装书请点击[这里](https://item.jd.com/13694000.html)。
+
 ![](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/blob/main/cover.png)
 
 
