@@ -22,3 +22,4 @@
 | 14  | Go语言精进之路vol1 | p62, 具体参见[issue12](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/12) | 图8-1 变量声明语法错误 | https://github.com/jackbai233 | 内容错误 | 图中a :=(int32)17应改为a := int32(17) 另一个var a = (int32)17应改为 var a = int32(17) |
 | 15  | Go语言精进之路vol1 | p89, 具体参见[issue13](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/13) | slice_unbind_orig_array.go代码中数组u初始化有笔误 | https://github.com/jackbai233 | typo | 书中代码u := []int{11, 12, 13, 14, 15} 应该为u := [...]int{11, 12, 13, 14, 15}|
 | 16  | Go语言精进之路vol1 | p94, 具体参见[issue14](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/14) | map变量初始化有误 | https://github.com/jackbai233 | typo | m := map[string]int应该为m := map[string]int{}|
+| 17  | Go语言精进之路vol1 | p81, 具体参见[issue16](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/16) | Go 不存在 float 类型 | https://github.com/XQ-Gang | typo | fnumbers := [...]float{}应改为fnumbers := [...]float64{}，上面的注释中代码亦是|
