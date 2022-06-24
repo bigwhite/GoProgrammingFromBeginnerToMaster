@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	u := []int{11, 12, 13, 14, 15}
+	u := [...]int{11, 12, 13, 14, 15}
 	fmt.Println("array:", u) // [11, 12, 13, 14, 15]
 	s := u[1:3]
 	fmt.Printf("slice(len=%d, cap=%d): %v\n", len(s), cap(s), s) // [12, 13]

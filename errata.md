@@ -19,4 +19,5 @@
 | 11  | Go语言精进之路vol1 | p103 | 示例代码有误，具体参见[issue 9](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/9) | liansyyy(https://github.com/liansyyy) | typo | 应改为 p := &m[key] |
 | 12  | Go语言精进之路vol1 | p350 | “如何s[n]T或\*[n]T的数组类型，len(s)返回数组的长度n” | bin4tre(bin4re@foxmail.com) | typo | 应将“如何”改为 “如果” |
 | 13  | Go语言精进之路vol1 | p352 | trySend函数的default分支的返回语句拼写错误"etrun false" | bin4tre(bin4re@foxmail.com) | typo | 应改为 “return false” |
-| 14  | Go语言精进之路vol1 | 具体参见[issue12](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/12) | 图8-1 变量声明语法错误 | https://github.com/jackbai233 | 内容错误 | 图中a :=(int32)17应改为a := int32(17) 另一个var a = (int32)17应改为 var a = int32(17) |
+| 14  | Go语言精进之路vol1 | p62, 具体参见[issue12](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/12) | 图8-1 变量声明语法错误 | https://github.com/jackbai233 | 内容错误 | 图中a :=(int32)17应改为a := int32(17) 另一个var a = (int32)17应改为 var a = int32(17) |
+| 15  | Go语言精进之路vol1 | p89, 具体参见[issue13](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/12) | slice_unbind_orig_array.go代码中数组u初始化有笔误 | https://github.com/jackbai233 | typo | 书中代码u := []int{11, 12, 13, 14, 15} 应该为u := [...]int{11, 12, 13, 14, 15}|
