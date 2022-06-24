@@ -15,8 +15,8 @@ type Stmt interface {
 	Query(args []string) (Rows, error)
 }
 
-// 返回女性员工总数
-func FemaleCount(s Stmt) (int, error) {
+// 返回男性员工总数
+func MaleCount(s Stmt) (int, error) {
 	result, err := s.Exec("select count(*) from employee_tab where gender=?", "1")
 	if err != nil {
 		return 0, err
