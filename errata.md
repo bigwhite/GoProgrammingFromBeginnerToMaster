@@ -25,3 +25,4 @@
 | 17  | Go语言精进之路vol1 | p81, 具体参见[issue16](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/16) | Go 不存在 float 类型 | https://github.com/XQ-Gang | typo | fnumbers := [...]float{}应改为fnumbers := [...]float64{}，上面的注释中代码亦是|
 | 18  | Go语言精进之路vol1 | p103, 具体参见[issue17](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/17) | 关于Go不允许获取map中value的地址的示例代码错误| https://github.com/bravility | typo | p := m[key] 应该改为 p := &m[key]|
 | 19  | Go语言精进之路vol1 | p49, 具体参见[issue20](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/20) |  "小骆峰拼写法"的说法不常见| https://github.com/suica | typo | “小骆峰拼写法”应改为“小驼峰拼写法”|
+| 20  | Go语言精进之路vol1 | p29, 具体参见[issue21](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/20) |  "传递归递给下去"不通顺| https://github.com/suica | typo | 应改为“递归传递下去”|
