@@ -26,3 +26,5 @@
 | 18  | Go语言精进之路vol1 | p103, 具体参见[issue17](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/17) | 关于Go不允许获取map中value的地址的示例代码错误| https://github.com/bravility | typo | p := m[key] 应该改为 p := &m[key]|
 | 19  | Go语言精进之路vol1 | p49, 具体参见[issue20](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/20) |  "小骆峰拼写法"的说法不常见| https://github.com/suica | typo | “小骆峰拼写法”应改为“小驼峰拼写法”|
 | 20  | Go语言精进之路vol1 | p29, 具体参见[issue21](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/20) |  "传递归递给下去"不通顺| https://github.com/suica | typo | 应改为“递归传递下去”|
+| 21  | Go语言精进之路vol1 | p27, 具体参见[issue22](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/22) |  素数定义不准确 | https://github.com/suica | 内容错误 | 素数定义中的“具有”应改为“仅有”，“除数”改为“因数”|
+| 22  | Go语言精进之路vol1 | p27, p57 中的代码，具体参见[issue22](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/22) |  代码的字体或许启用了连字, 两个字符合起来仅占用了一个字符的空间，并不是等宽的，阅读起来不够美观 | https://github.com/suica | 编辑错误 | 应关闭连字，使用等宽字体|
