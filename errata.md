@@ -29,3 +29,4 @@
 | 21  | Go语言精进之路vol1 | p27, 具体参见[issue22](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/22) |  素数定义不准确 | https://github.com/suica | 内容错误 | 素数定义中的“具有”应改为“仅有”，“除数”改为“因数”|
 | 22  | Go语言精进之路vol1 | p27, p57 中的代码，具体参见[issue22](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/22) |  代码的字体或许启用了连字, 两个字符合起来仅占用了一个字符的空间，并不是等宽的，阅读起来不够美观 | https://github.com/suica | 编辑错误 | 应关闭连字，使用等宽字体|
 | 23  | Go语言精进之路vol2 | p66 中的第一段代码，具体参见[issue23](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/23) |  示例代码中 b.RunParallel(...) 没有与之匹配的右括号，将造成错误 | https://github.com/XQ-Gang | typo | 倒数第二行代码的}右侧应补充一个右小括号 |
+| 24  | Go语言精进之路vol1 | p34，具体参见[issue24](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/24) |  "Go 1.13版本在src下面增加了go.mod和go.num"中的go.num 应改为go.sum | https://github.com/banana42 | typo | go.num应该为go.sum |
