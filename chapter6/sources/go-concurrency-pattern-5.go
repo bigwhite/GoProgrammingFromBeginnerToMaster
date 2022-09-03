@@ -16,6 +16,7 @@ func spawn(f func(int)) chan string {
 				f(j)
 			case <-quit:
 				quit <- "ok"
+				return
 			}
 		}
 	}()
