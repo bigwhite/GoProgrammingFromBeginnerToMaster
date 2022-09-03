@@ -33,3 +33,4 @@
 | 23  | Go语言精进之路vol2 | p66 中的第一段代码，具体参见[issue23](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/23) |  示例代码中 b.RunParallel(...) 没有与之匹配的右括号，将造成错误 | https://github.com/XQ-Gang | typo | 倒数第二行代码的}右侧应补充一个右小括号 | 未改 |
 | ~~24~~  | Go语言精进之路vol1 | p34，具体参见[issue24](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/24) |  "Go 1.13版本在src下面增加了go.mod和go.num"中的go.num 应改为go.sum | https://github.com/banana42 | typo | go.num应该为go.sum | 2022年8月第一版第2次印刷已改 |
 | 25  | Go语言精进之路vol2 | P229 错别字问题 具体参见[issue25](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/25) |  最下面一段，私钥可以看“出“数对，应为看“成” | https://github.com/XQ-Gang | typo | 私钥可以看出数对 应改为 私钥可以看成数对  | 未改 |
+| 26  | Go语言精进之路vol1 | p131 |  "mypkg1则指代的是chapter3-demo1/pkg/pkg1下面的包"中的路径有误| asd13878288822@qq.com | typo | "mypkg1则指代的是chapter3-demo1/pkg/pkg1下面的包"应该为"mypkg1则指代的是chapter3-demo2/pkg/pkg1下面的包" | 未改 |
