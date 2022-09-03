@@ -34,3 +34,4 @@
 | ~~24~~  | Go语言精进之路vol1 | p34，具体参见[issue24](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/24) |  "Go 1.13版本在src下面增加了go.mod和go.num"中的go.num 应改为go.sum | https://github.com/banana42 | typo | go.num应该为go.sum | 2022年8月第一版第2次印刷已改 |
 | 25  | Go语言精进之路vol2 | P229 错别字问题 具体参见[issue25](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/25) |  最下面一段，私钥可以看“出“数对，应为看“成” | https://github.com/XQ-Gang | typo | 私钥可以看出数对 应改为 私钥可以看成数对  | 未改 |
 | 26  | Go语言精进之路vol1 | p131 |  "mypkg1则指代的是chapter3-demo1/pkg/pkg1下面的包"中的路径有误| asd13878288822@qq.com | typo | "mypkg1则指代的是chapter3-demo1/pkg/pkg1下面的包"应该为"mypkg1则指代的是chapter3-demo2/pkg/pkg1下面的包" | 未改 |
+| 27  | Go语言精进之路vol1 | p298，具体参见[issue27](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/27) | 这里简单的用 3600/3 = 1200 作为最终的最短耗时预期是不合理的 | https://github.com/MrBear2018 | 内容错误 | “效率应该会稳定在1200(3600/3)左右” 改为 “效率应该会稳定在1800(xRayCheckTmCost * 30 / 3)左右” | 未改 |
