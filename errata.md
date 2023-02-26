@@ -13,7 +13,7 @@
 | ~~3~~  | Go语言精进之路vol1 | p383 | type interface error | 大鹏(github.com/Degfy)  | 语法错误 | 应改为 type error interface | 2022年8月第一版第2次印刷已改 |
 | ~~4~~  | Go语言精进之路vol1 | p227 | type MyInterface I和type Mystruct T | 1264644959@qq.com  | 语法错误 | 应改为 type MyInterface= I和type Mystruct = T  | 2022年8月第一版第2次印刷已改 |
 | ~~5~~  | Go语言精进之路vol1 | p36 | 图5-1中PEADME.md | Yao-Shang Tseng(https://github.com/yakushou730) | typo | 应改为 README.md  | 2022年8月第一版第2次印刷已改 |
-| 6 | Go语言精进之路vol2 | p165 | 图51-6中 非对称加密 中的“A的公钥”与“A的私钥”写反了 | 1264644959@qq.com | typo | 应将这两者调换一下  | 未改 |
+| ~~6~~ | Go语言精进之路vol2 | p165 | 图51-6中 非对称加密 中的“A的公钥”与“A的私钥”写反了 | 1264644959@qq.com | typo | 应将这两者调换一下  | 2023年1月第一版第2次印刷已改 |
 | ~~7~~  | Go语言精进之路vol1 | p391 | 小结中“如果可以通过错误值类型的特征进行错误检视，那么尽量使用错误行为特征检视策略；在上述两种策略无法实施的情况下，再用“哨兵”策略和错误值类型检视策略” | AVOlili(https://github.com/AVOlili) | 表达不清| 应改为：“如果可以通过错误行为特征进行错误检视，那么尽量使用错误行为特征检视策略；在上述两种策略无法实施的情况下，再用“哨兵”策略和错误值类型检视策略；”  | 2022年8月第一版第2次印刷已改 |
 | 8  | Go语言精进之路vol2(微信读书电子版) | 第47条 和 第49条，具体参见[issue6](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/6) | html字符被转义了，影响阅读体验 | AVOlili(https://github.com/AVOlili) | 编辑错误 | 等待微信读书渠道编辑去掉转义，恢复html字符原貌 | 未改 |
 | 9  | Go语言精进之路vol1 | p97 | chapter3/sources/map_stable_iterate.go示例代码通过range map给切片赋值可能会给大家带去误解| feng zhao (ifenng2020@gmail.com) | 表达不清| 这个例子中用切片保存是第一次map迭代的元素order。我的原意并非一定是按照1, 2, 3的顺序保存，只是要保证后续的iterate order都与第一次相同即可。只是在我的机器上第一次iterate的order恰好是 1,2,3的顺序。不过这个例子的确会给大家带去困惑。后续如果再版，会在这处做出说明 | 未改 |
@@ -30,9 +30,9 @@
 | ~~20~~  | Go语言精进之路vol1 | p29, 具体参见[issue21](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/20) |  "传递归递给下去"不通顺| https://github.com/suica | typo | 应改为“递归传递下去”| 2022年8月第一版第2次印刷已改 |
 | ~~21~~  | Go语言精进之路vol1 | p27, 具体参见[issue22](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/22) |  素数定义不准确 | https://github.com/suica | 内容错误 | 素数定义中的“具有”应改为“仅有”，“除数”改为“因数”| 2022年8月第一版第2次印刷已改 |
 | ~~22~~  | Go语言精进之路vol1 | p27, p57 中的代码，具体参见[issue22](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/22) |  代码的字体或许启用了连字, 两个字符合起来仅占用了一个字符的空间，并不是等宽的，阅读起来不够美观 | https://github.com/suica | 编辑错误 | 应关闭连字，使用等宽字体| 2022年8月第一版第2次印刷已改 |
-| 23  | Go语言精进之路vol2 | p66 中的第一段代码，具体参见[issue23](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/23) |  示例代码中 b.RunParallel(...) 没有与之匹配的右括号，将造成错误 | https://github.com/XQ-Gang | typo | 倒数第二行代码的}右侧应补充一个右小括号 | 未改 |
+| ~~23~~  | Go语言精进之路vol2 | p66 中的第一段代码，具体参见[issue23](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/23) |  示例代码中 b.RunParallel(...) 没有与之匹配的右括号，将造成错误 | https://github.com/XQ-Gang | typo | 倒数第二行代码的}右侧应补充一个右小括号 | 2023年1月第一版第2次印刷已改 |
 | ~~24~~  | Go语言精进之路vol1 | p34，具体参见[issue24](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/24) |  "Go 1.13版本在src下面增加了go.mod和go.num"中的go.num 应改为go.sum | https://github.com/banana42 | typo | go.num应该为go.sum | 2022年8月第一版第2次印刷已改 |
-| 25  | Go语言精进之路vol2 | P229 错别字问题 具体参见[issue25](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/25) |  最下面一段，私钥可以看“出“数对，应为看“成” | https://github.com/XQ-Gang | typo | 私钥可以看出数对 应改为 私钥可以看成数对  | 未改 |
+| ~~25~~  | Go语言精进之路vol2 | P229 错别字问题 具体参见[issue25](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/25) |  最下面一段，私钥可以看“出“数对，应为看“成” | https://github.com/XQ-Gang | typo | 私钥可以看出数对 应改为 私钥可以看成数对  | 2023年1月第一版第2次印刷已改 |
 | 26  | Go语言精进之路vol1 | p131 |  "mypkg1则指代的是chapter3-demo1/pkg/pkg1下面的包"中的路径有误| asd13878288822@qq.com | typo | "mypkg1则指代的是chapter3-demo1/pkg/pkg1下面的包"应该为"mypkg1则指代的是chapter3-demo2/pkg/pkg1下面的包" | 未改 |
 | 27  | Go语言精进之路vol1 | p298，具体参见[issue27](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/27) | 这里简单的用 3600/3 = 1200 作为最终的最短耗时预期是不合理的 | https://github.com/MrBear2018 | 内容错误 | “效率应该会稳定在1200(3600/3)左右” 改为 “效率应该会稳定在1800(xRayCheckTmCost * 30 / 3)左右” | 未改 |
 | 28  | Go语言精进之路vol1 | p324，具体参见[issue28](https://github.com/bigwhite/GoProgrammingFromBeginnerToMaster/issues/28) | p324源码go-concurrency-pattern-5.go中的 worker goroutine在收到quit后并未立即退出 | https://github.com/ptgeft | 内容错误 | p324源码go-concurrency-pattern-5.go中的源码quit <- "ok" 的下一行应增加return | 源码库已改，但纸版书中尚未修改 |
